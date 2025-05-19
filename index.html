@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Selidiki Halaman Ini</title>
+  <meta charset="UTF-8">
+  <style>
+    body { font-family: sans-serif; padding: 1rem; }
+  </style>
+</head>
+<body>
+  <h2>🎉 Kode Rahasia Tersembunyi</h2>
+  <p>Ada sesuatu di halaman ini... Tapi di mana ya?</p>
+  <p>Petunjuk: Jangan percaya apa yang kamu lihat...</p>
+  <script>
+    const b64 = "clVsbGFtYXQgdWxhbmcgdGFodW4=";
+    const hasil = atob(b64);
+    const fix = hasil.replace("rU", "se");
+    setTimeout(() => {
+      console.log("🎁 Rahasia berhasil ditemukan:");
+      console.log(fix);
+    }, 1500);
+  </script>
+</body>
+</html>
