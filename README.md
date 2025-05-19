@@ -12,7 +12,7 @@ Halaman ini menyimpan sebuah pesan rahasia yang tersembunyi di dalam kode sumber
 - Jika kamu decode Base64 tersebut, hasilnya tampak seperti pesan yang hampir benar, tapi ada sedikit **tipuan** di dalamnya.
 - Ada huruf yang harus diganti agar pesan itu menjadi benar-benar terbaca.
 - Coba lihat kode JavaScript di halaman, ada penggantian karakter untuk memperbaiki pesan tersebut.
-- Pesan asli setelah diperbaiki adalah ucapan **"selamat ulang tahun"**.
+- Pesan asli setelah diperbaiki adalah ...
 
 ---
 
